@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="images/favicon.png">
+		<title>Megadeth</title>
+		<style>
+			.navbar a {
+				color:white;
+				font-size:20px;
+				margin-left:12px;
+				margin-right:12px;
+				text-decoration: none;
+			}
+			.navbar a:active {
+				color:gray;
+			}
+			.navbar a:hover {
+				color:#975729;
+			}
+			
+			.small_img img{
+				opacity: 0.4;
+			}
+			
+		</style>
+		
+		<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+		
+		<script>
+			$(function(){
+			
+			$('.small_img img').on({
+										mouseover: function () {
+												$(this).css({
+														'opacity': 1,
+												});
+										},
+										mouseout: function () {
+												$(this).css({
+														'opacity': 0.4
+												});
+										},
+										click: function () {
+												var imageURL = $(this).attr('src');
+												$('#big_img img').fadeOut(250, function () {
+														$("#big_img img").attr('src', imageURL);
+												}).fadeIn(250);
+										}
+								});	
+			} ) ;
+		</script>
+		
+	</head>
+	<body style="margin:0px;font-family: Arial, sans-serif;background-color:#191411">
+		<div style="background-color:black;height:60px;padding:10px;text-align:center"><a href="index.html"><img src="images/main_logo.png" style="max-height:100%;"></a></div>
+		<div class="navbar" style="background-color:black;padding-top:4px;padding-bottom:10px;text-align:center">
+			<a  href="zespol.html">ZESPÓŁ</a>
+			<a href="dyskografia.html">DYSKOGRAFIA</a>
+			<a href="koncerty.html">KONCERTY</a>
+			<a href="galeria.html">GALERIA</a>
+			<a href="teledyski.html">TELEDYSKI<a>
+		</div>
+		<div style="width:100%;padding-top:40px;padding-bottom:40px">
+			<center>
+				<div id="big_img" style="width:100%;max-height:480px;"><img src="gallery/img1.jpg" style="max-height:480px;max-width:90%"></div>
+				<br>
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img1.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img2.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img3.png" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img4.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img5.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img6.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img7.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img8.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img9.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img10.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img11.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img12.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img13.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img14.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img15.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img16.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img17.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img18.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img19.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img20.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img21.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img22.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img23.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+				<div class="small_img" style="width:480px;height:120px;display: inline;"><img src="gallery/img24.jpg" style="width:120px;height:120px; object-fit:cover"></div>		
+			</center>
+		</div>
+		<div style="background-color:black;height:60px;padding:10px;text-align:center">
+		<a href="https://twitter.com/megadeth" target="_blank"><img src="images/twitter.png" style="height:40px;width:40px;background-color:white;margin-right:20px;border-radius: 12px"></a>
+		<a href="https://www.youtube.com/megadeth" target="_blank"><img src="images/instagram.png" style="height:40px;width:40px;background-color:white;margin-right:20px;border-radius: 12px"></a>
+		<a href="https://www.instagram.com/megadeth/" target="_blank"><img src="images/youtube.png" style="background-color:white;height:40px;width:40px;border-radius: 12px"></a>
+		</div>
+	</body>
+</html>
